@@ -3,64 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Personal Website</title>
+    <title>site</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #e0f7fa;
+            background-color: #fafafa; 
             color: #333;
         }
         header {
-            background: linear-gradient(45deg, #007BFF, #00c853);
-            color: #fff;
-            padding: 20px 0;
+            background-color: #ffcc00; 
+            padding: 10px;
             text-align: center;
         }
+        nav {
+            margin-top: 10px;
+        }
         nav a {
-            margin: 0 15px;
-            color: #ffeb3b;
+            margin: 0 10px;
+            color: #333;
             text-decoration: none;
-            font-weight: bold;
         }
         nav a:hover {
             text-decoration: underline;
         }
-        section {
-            padding: 20px;
-            margin: 20px auto;
-            background-color: #fff;
-            max-width: 800px;
-            border-radius: 8px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        main {
+            padding: 10px;
         }
-        h2 {
-            color: #007BFF;
+        section {
+            margin: 20px 0;
+            padding: 10px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+        }
+        section h2 {
+            margin: 0 0 10px;
+            color: #555;
         }
         footer {
+            padding: 10px;
+            background-color: #eee;
             text-align: center;
-            padding: 15px 0;
-            background: linear-gradient(45deg, #007BFF, #00c853);
-            color: #fff;
-            position: relative;
-            bottom: 0;
-            width: 100%;
+            margin-top: 20px;
         }
         .food-image {
-            width: 120px;
+            width: 80px;
             height: auto;
-            margin-left: 10px;
-            vertical-align: middle;
-            border-radius: 5px;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+            display: block;
+            margin-top: 10px;
         }
         ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        ul li {
-            margin: 10px 0;
+            padding-left: 20px;
         }
     </style>
 </head>
@@ -72,40 +66,42 @@
         <a href="#about">About Me</a>
         <a href="#interests">Interests</a>
         <a href="#food">Food</a>
+        <a href="#skills">Skills</a>
     </nav>
 </header>
 
-<section id="about">
-    <h2>About Me</h2>
-    <p>Hi! I'm Jānis Šļakota, and I'm a student at TSI.</p>
-</section>
+<main>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi! I'm Jānis Šļakota, and I'm a student at TSI.</p>
+    </section>
 
-<section id="interests">
-    <h2>Interests</h2>
-    <p>In my spare time, I love...</p>
-    <ul>
-        <li>Listening to music.</li>
-        <li>Playing video games.</li>
-        <li>Walking/hiking.</li>
-        <li>Learning to program.</li>
-    </ul>
-</section>
+    <section id="interests">
+        <h2>Interests</h2>
+        <ul>
+            <li>Listening to music</li>
+            <li>Playing video games</li>
+            <li>Walking/hiking</li>
+            <li>Learning to program</li>
+        </ul>
+    </section>
 
-<section id="food">
-    <h2>Favourite food</h2>
-    <p>Sushi!<img class="food-image" src="Sushi_in_10_steps.jpg" alt="Sushi"></p>
-</section>
+    <section id="food">
+        <h2>Favourite Food</h2>
+        <p>Sushi!</p>
+        <img class="food-image" src="Sushi_in_10_steps.jpg" alt="Sushi">
+    </section>
 
-<section id="skills">
-    <h2>Skills</h2>
-    <p>These are my skills (both soft and hard skills)...</p>
-    <ul>
-        <li>Being friendly and approachable.</li>
-        <li>Relatively reliable.</li>
-        <li>Audio production.</li>
-        <li>Programming in C++, also somewhat skilled in Python.</li>
-    </ul>
-</section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Being friendly and approachable</li>
+            <li>Relatively reliable</li>
+            <li>Audio production</li>
+            <li>Programming in C++, somewhat skilled in Python</li>
+        </ul>
+    </section>
+</main>
 
 <footer>
     <p>&copy; Personality copyrighted, do not steal!!!</p>
