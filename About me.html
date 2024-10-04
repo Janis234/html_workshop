@@ -9,22 +9,23 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #e0f7fa;
             color: #333;
         }
         header {
-            background-color: #007BFF;
+            background: linear-gradient(45deg, #007BFF, #00c853);
             color: #fff;
-            padding: 10px 0;
+            padding: 20px 0;
             text-align: center;
-        }
-        nav {
-            margin: 20px 0;
         }
         nav a {
             margin: 0 15px;
-            color: #007BFF;
+            color: #ffeb3b;
             text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
         }
         section {
             padding: 20px;
@@ -32,22 +33,34 @@
             background-color: #fff;
             max-width: 800px;
             border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #007BFF;
         }
         footer {
             text-align: center;
-            padding: 10px 0;
-            background-color: #007BFF;
+            padding: 15px 0;
+            background: linear-gradient(45deg, #007BFF, #00c853);
             color: #fff;
             position: relative;
             bottom: 0;
             width: 100%;
         }
         .food-image {
-            width: 100px;
+            width: 120px;
             height: auto;
             margin-left: 10px;
             vertical-align: middle;
+            border-radius: 5px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 10px 0;
         }
     </style>
 </head>
@@ -58,7 +71,7 @@
     <nav>
         <a href="#about">About Me</a>
         <a href="#interests">Interests</a>
-        <a href="#contact">Contact</a>
+        <a href="#food">Food</a>
     </nav>
 </header>
 
@@ -78,9 +91,9 @@
     </ul>
 </section>
 
-<section id="contact">
+<section id="food">
     <h2>Favourite food</h2>
-    <p>Sushi!<img class="food-image" src="Sushi_in_10_steps.jpg" alt="Sushi">
+    <p>Sushi!<img class="food-image" src="Sushi_in_10_steps.jpg" alt="Sushi"></p>
 </section>
 
 <section id="skills">
